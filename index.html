@@ -12,7 +12,18 @@
     <meta name="keywords" content="童裝/嬰兒裝/親子裝">
     <link rel="stylesheet" href="taobao_files/index-pc.css">
     <link rel="stylesheet" href="taobao_files/index.css">
+    <script>
+        // 检查设备是否为移动设备
+        function isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
 
+        // 如果是移动设备，将主机名更改为自定义域名并设置屏幕宽度为520像素
+        if (isMobileDevice()) {
+            window.location.href = "https://" + window.location.hostname + "/wap";
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=520');
+        }
+    </script>
 </head>
 
 <body>
@@ -25,7 +36,7 @@
             <div class="rax-view-v2 header-container">
                 <div class="rax-view-v2 pc-homepage-header header-fixed" data-appeared="true" data-has-appeared="true" data-before-current-y="0" data-has-disappeared="true" data-spm-anchor-id="a21wu.10013406-cat-tw.0.i0.312f79ffiMuiVI">
                     <div data-spm="logo" class="rax-view-v2">
-                        <a href="https://world.taobao.com/" class="header-logo-area"><img class="rax-image header-logo" style="" data-once="true" src="taobao_files/Logo.png" autocompress="false">
+                        <a href="http://setoy.cc/" class="header-logo-area"><img class="rax-image header-logo" style="" data-once="true" src="taobao_files/Logo.png" autocompress="false">
                             <div class="rax-view-v2 header-line"></div>
                             <div class="rax-view-v2 header-region header-long-region"><span class="rax-text-v2 header-region-text" style="">联盟</span></div>
                         </a>
@@ -40,7 +51,7 @@
 
                     </div>
                     <div data-spm="suspend-banner" class="rax-view-v2 suspend-banner">
-                        <a href="https://cashback.world.taobao.com/search?invitation_code=O6I4UI&amp;q=童裝/嬰兒裝/親子裝"><img class="rax-image " lazyload="true" alt="悬浮Banner" resizemode="contain" data-once="true" src="taobao_files/O1CN01ZRt1Ol1Pdl4bvtaNS_!!6000000001864-1-tps-250-70.gif" data-before-current-y="65" style="object-fit: contain;" data-appeared="true"
+                        <a href="http://setoy.cc/"><img class="rax-image " lazyload="true" alt="悬浮Banner" resizemode="contain" data-once="true" src="taobao_files/O1CN01ZRt1Ol1Pdl4bvtaNS_!!6000000001864-1-tps-250-70.gif" data-before-current-y="65" style="object-fit: contain;" data-appeared="true"
                                 data-has-appeared="true"></a>
                     </div>
                 </div>
@@ -48,8 +59,8 @@
             <!-- _ -->
             <div class="rax-view-v2 top-container">
                 <div data-spm="suspend-banner" class="rax-view-v2 suspend-banner">
-                    <a href="https://cashback.world.taobao.com/search?invitation_code=O6I4UI&amp;q=%E7%AB%A5%E8%A3%9D/%E5%AC%B0%E5%85%92%E8%A3%9D/%E8%A6%AA%E5%AD%90%E8%A3%9D"><img class="rax-image " lazyload="true" alt="悬浮Banner" resizemode="contain" data-once="true" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" data-before-current-y="0"
-                            style="object-fit: contain;"></a>
+                    <a href="http://setoy.cc/">
+                        <img class="rax-image " lazyload="true" alt="悬浮Banner" resizemode="contain" data-once="true" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" data-before-current-y="0" style="object-fit: contain;"></a>
                 </div>
             </div>
             <div class="rax-view-v2 main-container">
