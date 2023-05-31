@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /wap/
+Sitemap: https://setoy.cc/sitemap.xml
