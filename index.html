@@ -19,8 +19,10 @@
 
         // 如果是移动设备，将主机名更改为自定义域名并设置屏幕宽度为520像素
         if (isMobileDevice()) {
-            window.location.href = "https://" + window.location.hostname + "/wap";
-            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=520');
+            if (screen.width <= 520) {
+                window.location.href = "https://" + window.location.hostname + "/wap";
+                document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=520');
+            }
         }
     </script>
 </head>
